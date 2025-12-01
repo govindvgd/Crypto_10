@@ -88,9 +88,3 @@ python3 alt_run_client.py 127.0.0.1
 *   **Encryption:** AES-256-GCM (Galois/Counter Mode) provides both confidentiality and integrity.
 *   **Framing:** TCP is a stream protocol. To ensure complete message delivery, we use a 4-byte length prefix (Big Endian) before sending the encrypted payload.
 *   **Nonces:** A unique 12-byte nonce is generated for every message and prepended to the ciphertext.
-
-
-## Disclaimer
-
-This code is for educational purposes to demonstrate cryptographic primitives and socket programming. It implements basic security but lacks authentication infrastructure (PKI/Certificates) required for production environments.
-```
