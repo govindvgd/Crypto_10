@@ -1,8 +1,3 @@
-Here is a neat, clean, and professional `README.md` file ready for GitHub.
-
-You can save this code block as **`README.md`** in the root folder of your project (`Using Library of PyCA`).
-
-```markdown
 # Python Secure Messaging Demos
 
 This repository demonstrates socket-based communication in Python, progressing from simple plaintext messaging to a secure, encrypted chat application using the `cryptography` library.
@@ -98,14 +93,4 @@ python3 alt_run_client.py 127.0.0.1
 ## Disclaimer
 
 This code is for educational purposes to demonstrate cryptographic primitives and socket programming. It implements basic security but lacks authentication infrastructure (PKI/Certificates) required for production environments.
-```
-
-### Git Recommendation
-Before you push, make sure you create a file named `.gitignore` in your root folder with the following content to keep your repo clean:
-
-```gitignore
-.venv/
-__pycache__/
-*.pyc
-.DS_Store
 ```
